@@ -1,0 +1,55 @@
+* {
+    font-family:"Inter", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0 140px;
+}
+
+
+/* banner section styles */
+.banner-section {
+    margin-top: 50px;
+    background-image: url('./resources/banner-image.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.banner-section-text {
+    text-align: center;
+    padding: 250px 0;
+    color: #fff;
+}
+
+.banner-section-text h4 {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.banner-section-text h1 {
+    font-size: 100px;
+}
+
+/* discount related styles */
+.discount-section {
+    text-align: center;
+}
+
+.discount {
+    color: #ff0000;
+    font-size: 100px;
+    padding-bottom: 30px;
+}
+
+.discount-section H4 {
+    color: #ff0000;
+    padding-bottom: 10px;
+}
+
+.discount-section H2 {
+    font-size: 30px;
+    padding-bottom: 50px;
+}
