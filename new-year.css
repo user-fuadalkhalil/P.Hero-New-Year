@@ -92,6 +92,11 @@ main {
     padding: 20px 50px;
     font-size: 25px;
     font-weight: 700;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #ff0000;
 }
 
 /* address section */
@@ -125,6 +130,12 @@ main {
     font-size: 30px;
     padding: 15px 30px;
     border-radius: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+.red-btn:hover {
+    background-color: #7c0000;
+    color: #fff;
 }
 
 /* coming-soon section */
@@ -255,12 +266,19 @@ main {
     line-height: 1.5;
 }
 
+.input {
+    padding-top: 30px;
+}
+
 .email {
     border: none;
     outline: none;
     padding: 20px 30px;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #323b43;
 }
 
 .email:focus {
@@ -274,5 +292,80 @@ main {
 }
 
 .submit {
-    
+    margin-left: 0;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 20px 30px;
+    background-color: #ff0000;
+    color: #fff;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    transition: background 0.3s ease-in-out;
+}
+
+.submit:hover {
+    background-color: #7c0000;
+}
+
+/* footer related styles */
+.footer {
+    margin-top: 100px;
+    padding: 100px 140px;
+    background-color: #002147;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.address-contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.address p {
+    line-height: 2;
+}
+
+.phone {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.phone img {
+    padding-right: 10px;
+}
+
+.website {
+    display: flex;
+}
+
+.website img {
+    padding-right: 10px;
+}
+
+.footer hr {
+    margin: 50px 50px;
+    border: none;
+    height: 1px;
+    background-color: #323b43;
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-media-container img {
+    cursor: pointer;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
 }
